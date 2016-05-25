@@ -1,0 +1,79 @@
+# OrgNote Configuration
+## Docs: http://lesliezhu.github.io/OrgNote/
+## Source: https://github.com/LeslieZhu/OrgNote
+
+# Site
+title: NiuBiLeTy
+subtitle: "做惯咸鱼,善于翻身"
+
+author: 韩光祖
+email: hguangzu@gmail.com
+
+language: zh-CN
+
+# About this blog
+description: "走在开发路上的运维"
+keywords: "Python,Geek,Linux,Devop"
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://hgz6536.github.io
+root: /
+
+
+# Directory
+# if the source_dir is ./notes, then set 'source_dir' as 'notes', not include the '/'
+public_dir: public
+source_dir: notes
+
+
+# Category & Tag
+default_tag: "默认"
+
+# Theme
+# the default is 'freemind' and it's only theme for OrgNote now
+theme: freemind
+
+# css highlight
+# the defaulit is 'default'
+# pygments: manni igor xcode vim autumn vs rrt native perldoc borland tango
+# emacs friendly monokai paraiso-dark colorful murphy bw pastie paraiso-light trac default fruity 
+css_highlight: default
+
+# Pagination
+## the note num of each page
+per_page: 6
+
+
+# duoshuo
+duoshuo_shortname: niubilety
+
+
+
+# layout
+## 1: enable
+## 0: disable
+### if 'sidebar_show` is disable, igore all `sidebar` option
+### the sidebar item display as the config order, sidebar items list:
+### sidebar_latest,sidebar_tags,sidebar_time,sidebar_weibo,sidebar_link
+
+sidebar_show: 1
+sidebar_contact: "QQ:847644968"
+sidebar:
+  - sidebar_latest
+  - sidebar_tags
+  - sidebar_duoshuo
+  - sidebar_time
+  - sidebar_link
+
+
+# links, each link should setting url,name,icon
+links:
+  link1:
+    url: https://github.com/hgz6536
+    name: hgz6536
+    icon: fa fa-github
+  link2:
+    url: http://weibo.com/hgz6536/home?wvr=5&lf=reg
+    name: 微博
+    icon: fa fa-weibo
