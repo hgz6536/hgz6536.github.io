@@ -1,0 +1,3 @@
+[submodule "theme/freemind"]
+	path = theme/freemind
+	url = https://github.com/LeslieZhu/orgnote-theme-freemind
